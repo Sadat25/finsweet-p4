@@ -48,47 +48,47 @@ const Footer = () => {
                     </NavLink>
                     <NavLink to="/about">
                         {({ isActive }) => (
-                            <li className={isActive ? "text-black" : "text-[#494971] hover:text-black font-Poppins font-medium leading-[26px] cursor-pointer"}>About</li>
+                            <li className={isActive ? "text-black font-bold" : "text-[#494971] hover:text-black font-Poppins font-medium leading-[26px] cursor-pointer"}>About</li>
                         )}
                     </NavLink>
                     <NavLink to="/features">
                         {({ isActive }) => (
-                            <li className={isActive ? "text-black" : "text-[#494971] hover:text-black font-Poppins font-medium leading-[26px] cursor-pointer"}>Features</li>
+                            <li className={isActive ? "text-black font-bold" : "text-[#494971] hover:text-black font-Poppins font-medium leading-[26px] cursor-pointer"}>Features</li>
                         )}
                     </NavLink>
                     <NavLink to="/pricing">
                         {({ isActive }) => (
-                            <li className={isActive ? "text-black" : "text-[#494971] hover:text-black font-Poppins font-medium leading-[26px] cursor-pointer"}>Pricing</li>
+                            <li className={isActive ? "text-black font-bold" : "text-[#494971] hover:text-black font-Poppins font-medium leading-[26px] cursor-pointer"}>Pricing</li>
                         )}
                     </NavLink>
                     <NavLink to="/work">
                         {({ isActive }) => (
-                            <li className={isActive ? "text-black" : "text-[#494971] hover:text-black font-Poppins font-medium leading-[26px] cursor-pointer"}>Work</li>
+                            <li className={isActive ? "text-black font-bold" : "text-[#494971] hover:text-black font-Poppins font-medium leading-[26px] cursor-pointer"}>Work</li>
                         )}
                     </NavLink>
                     <NavLink to="/read">
                         {({ isActive }) => (
-                            <li className={isActive ? "text-black" : "text-[#494971] hover:text-black font-Poppins font-medium leading-[26px] cursor-pointer"}>Read</li>
+                            <li className={isActive ? "text-black font-bold" : "text-[#494971] hover:text-black font-Poppins font-medium leading-[26px] cursor-pointer"}>Read</li>
                         )}
                     </NavLink>
                     <NavLink to="/blog">
                         {({ isActive }) => (
-                            <li className={isActive ? "text-black" : "text-[#494971] hover:text-black font-Poppins font-medium leading-[26px] cursor-pointer"}>Blog</li>
+                            <li className={isActive ? "text-black font-bold" : "text-[#494971] hover:text-black font-Poppins font-medium leading-[26px] cursor-pointer"}>Blog</li>
                         )}
                     </NavLink>
                     <NavLink to="/read-blog">
                         {({ isActive }) => (
-                            <li className={isActive ? "text-black" : "text-[#494971] hover:text-black font-Poppins font-medium leading-[26px] cursor-pointer"}>Read Blog</li>
+                            <li className={isActive ? "text-black font-bold" : "text-[#494971] hover:text-black font-Poppins font-medium leading-[26px] cursor-pointer"}>Read Blog</li>
                         )}
                     </NavLink>
                     <NavLink to="/contact">
                         {({ isActive }) => (
-                            <li className={isActive ? "text-black" : "text-[#494971] hover:text-black font-Poppins font-medium leading-[26px] cursor-pointer"}>Contact</li>
+                            <li className={isActive ? "text-black font-bold" : "text-[#494971] hover:text-black font-Poppins font-medium leading-[26px] cursor-pointer"}>Contact</li>
                         )}
                     </NavLink>
                     <NavLink to="/policy">
                         {({ isActive }) => (
-                            <li className={isActive ? "text-black" : "text-[#494971] hover:text-black font-Poppins font-medium leading-[26px] cursor-pointer"}>Policy</li>
+                            <li className={isActive ? "text-black font-bold" : "text-[#494971] hover:text-black font-Poppins font-medium leading-[26px] cursor-pointer"}>Policy</li>
                         )}
                     </NavLink>
                 </ul>
