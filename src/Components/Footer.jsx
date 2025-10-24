@@ -1,6 +1,5 @@
-import React from 'react'
-import Container from './Container'
-import logo from '../assets/Footer-Logo.png'
+import Container from './Container';
+import logo from '../assets/Footer-Logo.png';
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
@@ -94,8 +93,9 @@ const Footer = () => {
                     </NavLink>
                 </ul>
             </div>
+
         </div>
     )
 }
 
-export default Footer
+export default Footer;
