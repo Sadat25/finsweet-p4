@@ -1,6 +1,5 @@
 import React from 'react'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Navbar from './Components/Navbar';
 import RootLayout from './RootLayout';
 import Home from './Pages/Litan/Home/Home';
 import BlogPage from './Pages/Jahangir/blogPage';
