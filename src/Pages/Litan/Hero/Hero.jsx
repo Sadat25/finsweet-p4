@@ -12,7 +12,7 @@ const Hero = () => {
                             <h2 className='text-4xl md:text-6xl font-semibold'>Building stellar websites for early startups</h2>
                             <p className='text-white/70'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                             <div className="flex gap-5 items-center">
-                                <Btn className='bg-[#FCD980] !text-Tint-Blue'>View our work</Btn>
+                                <Btn className='bg-[#FCD980] text-Tint-Blue!'>View our work</Btn>
                                 <a className='flex items-center gap-2' href="/">View Pricing <FaArrowRightLong /></a>
                             </div>
                         </div>
