@@ -47,7 +47,7 @@ const OurWork = () => {
                 <h4 className="pt-6 font-Poppins font-semibold text-[38px] dark:text-gray-50 text-Dark-Blue">
                   Template 1
                 </h4>
-                <p className="lg:py-3 md:w-[350px] lg:w-[600px] font-Poppins text-[16px] dark:text-gray-50 text-Dark-Blue">
+                <p className="py-2 lg:py-3 md:w-[350px] lg:w-[600px] font-Poppins text-[16px] dark:text-gray-50 text-Dark-Blue">
                   Apparently we had reached a great height in the atmosphere,
                   for the sky was a dead black, and the stars had ceased to
                   twinkle.
@@ -77,7 +77,7 @@ const OurWork = () => {
                 <h4 className="pt-6 font-Poppins font-semibold text-[38px] dark:text-gray-50 text-Dark-Blue">
                   Template 2
                 </h4>
-                <p className="lg:py-3 md:w-[350px] lg:w-[600px] font-Poppins text-[16px] dark:text-gray-50 text-Dark-Blue">
+                <p className="py-2 lg:py-3 md:w-[350px] lg:w-[600px] font-Poppins text-[16px] dark:text-gray-50 text-Dark-Blue">
                   Apparently we had reached a great height in the atmosphere,
                   for the sky was a dead black, and the stars had ceased to
                   twinkle.
@@ -110,7 +110,7 @@ const OurWork = () => {
                 <h4 className="pt-6 font-Poppins font-semibold text-[38px] dark:bg-gray-50 text-Dark-Blue">
                   Template 3
                 </h4>
-                <p className="lg:py-3 md:w-[350px] lg:w-[600px] font-Poppins text-[16px] dark:bg-gray-50 text-Dark-Blue">
+                <p className="py-2 lg:py-3 md:w-[350px] lg:w-[600px] font-Poppins text-[16px] dark:bg-gray-50 text-Dark-Blue">
                   Apparently we had reached a great height in the atmosphere,
                   for the sky was a dead black, and the stars had ceased to
                   twinkle.
@@ -139,7 +139,7 @@ const OurWork = () => {
                 <h4 className="pt-6 font-Poppins font-semibold text-[38px] dark:bg-gray-50 text-Dark-Blue">
                   Template 4
                 </h4>
-                <p className="lg:py-3 md:w-[350px] lg:w-[600px] font-Poppins text-[16px] dark:bg-gray-50 text-Dark-Blue">
+                <p className="py-2 lg:py-3 md:w-[350px] lg:w-[600px] font-Poppins text-[16px] dark:bg-gray-50 text-Dark-Blue">
                   Apparently we had reached a great height in the atmosphere,
                   for the sky was a dead black, and the stars had ceased to
                   twinkle.
@@ -174,7 +174,7 @@ const OurWork = () => {
                 <h4 className="pt-6 font-Poppins font-semibold text-[38px] dark:bg-gray-50 text-Dark-Blue">
                   Template 5
                 </h4>
-                <p className="lg:py-3 md:w-[350px] lg:w-[600px] font-Poppins text-[16px] dark:bg-gray-50 text-Dark-Blue">
+                <p className="py-2 lg:py-3 md:w-[350px] lg:w-[600px] font-Poppins text-[16px] dark:bg-gray-50 text-Dark-Blue">
                   Apparently we had reached a great height in the atmosphere,
                   for the sky was a dead black, and the stars had ceased to
                   twinkle.
@@ -202,7 +202,7 @@ const OurWork = () => {
                 <h4 className="pt-6 font-Poppins font-semibold text-[38px] dark:bg-gray-50 text-Dark-Blue">
                   Template 6
                 </h4>
-                <p className="lg:py-3 md:w-[350px] lg:w-[600px] font-Poppins text-[16px] dark:bg-gray-50 text-Dark-Blue">
+                <p className="py-2 lg:py-3 md:w-[350px] lg:w-[600px] font-Poppins text-[16px] dark:bg-gray-50 text-Dark-Blue">
                   Apparently we had reached a great height in the atmosphere,
                   for the sky was a dead black, and the stars had ceased to
                   twinkle.
