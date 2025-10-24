@@ -1,15 +1,23 @@
 import React from 'react'
-import Navbar from './Components/Navbar'
-import Btn from './Components/Btn'
-import Footer from './Components/Footer'
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Navbar from './Components/Navbar';
+import RootLayout from './RootLayout';
+
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    Component: RootLayout,
+    children: [
+      // { index: true, Component:  },
+      // { path: "shop-now", Component: ShopNow },
+    ]
+  }
+]);
 
 const App = () => {
   return (
-      <div>
-          <Navbar />
-          <Btn>Call us</Btn>
-          <Footer/>
-    </div>
+    <RouterProvider router={router} />
   )
 }
 
