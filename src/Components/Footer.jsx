@@ -9,12 +9,13 @@ import { FaFacebook } from "react-icons/fa6";
 const Footer = () => {
     return (
         <div>
-            <footer className='bg-Tint-Blue lg:pt-24 pt-8 lg:mt-32 mt-5 px-2 lg:px-0'>
+            <footer className='bg-Tint-Blue lg:pt-24 pt-8 px-2 lg:px-0'>
                 <Container className="lg:flex">
+
                     <div className='w-1/2'>
                         <img src={logo} alt="" />
                         <p className='font-Poppins font-medium leading-7 text-white/80 lg:w-100 w-86 mt-[22px] lg:mb-[86px] mb-10'>We are always open to discuss your project and improve your online presence.</p>
-                        <div className='bg-[#FCD980] lg:w-[450px] w-94 py-4.5 lg:px-9.5 px-2 flex items-center justify-between mb-10'>
+                        <div className='bg-[#FCD980] lg:w-[450px] w-94 py-4 lg:px-9.5 px-2 flex items-center justify-between mb-10 lg:mb-0'>
                             <div>
                                 <h2 className='text-Dark-Blue font-Poppins font-medium leading-8 text-lg '>Email me at</h2>
                                 <p className='text-Dark-Blue/80 font-Poppins '>contact@website.com</p>
@@ -25,7 +26,8 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='w-1/2'>
+
+                    <div className='lg:w-1/2'>
                         <h2 className='font-Poppins font-semibold text-5xl leading-16 text-white '>Lets Talk!</h2>
                         <p className='lg:w-100 w-86 text-white/80 font-Poppins mt-3.5 mb-7 '>We are always open to discuss your project, improve your online presence and help with your UX/UI design challenges.</p>
                         <div className='text-white flex gap-7 pb-5'>

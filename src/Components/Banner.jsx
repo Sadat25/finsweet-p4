@@ -5,7 +5,7 @@ import BannerImage from '../assets/bannerImg.png';
 const Banner = () => {
     return (
         <Container>
-            <div className="flex flex-col justify-center items-center font-Poppins text-Dark-Blue">
+            <div className="dark:bg-Dark-Blue flex flex-col justify-center items-center font-Poppins text-Dark-Blue dark:text-white">
                 <h1 className="lg:text-[48px] text-2xl font-semibold text-center lg:pt-32 pt-10 lg:w-[950px] w-[400px]">
                     A UX Case Study on Creating a Studious Environment for Students
                 </h1>
@@ -19,7 +19,7 @@ const Banner = () => {
                     By the same illusion which lifts the horizon of the sea to the level
                     of the spectator on a hillside.
                 </p>
-                <button className="text-Royal-Blue text-center cursor-pointer hover:underline">
+                <button className="text-Royal-Blue dark:text-amber-200 text-center cursor-pointer hover:underline">
                     Read more
                 </button>
             </div>

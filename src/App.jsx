@@ -1,16 +1,9 @@
-import Navbar from './Components/Navbar';
-import Btn from './Components/Btn';
-import Footer from './Components/Footer';
-import Banner from './Components/Banner';
-import BlogPage from './Pages/Jahangir/blogPage';
+import Blog from "./Pages/Jahangir/Blog";
 
 const App = () => {
   return (
-      <div>
-          <Navbar />
-          <Banner />
-          <BlogPage />
-          <Footer/>
+    <div>
+      <Blog />
     </div>
   )
 }
