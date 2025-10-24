@@ -20,7 +20,7 @@ const Aboutusfirstpart = () => {
 
         {/* 1rst section */}
 
-        <div className=" lg:flex justify-between pt-32">
+        <div className=" lg:flex justify-between pt-32 lg:px-4  ">
           <div>
             <h4 className="text-Dark-Blue font-Poppins font-medium text-lg dark:text-white">
               About us
