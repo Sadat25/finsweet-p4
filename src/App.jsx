@@ -2,6 +2,7 @@ import React from 'react'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Navbar from './Components/Navbar';
 import RootLayout from './RootLayout';
+import Home from './Pages/Litan/Home/Home';
 
 
 const router = createBrowserRouter([
@@ -9,8 +10,8 @@ const router = createBrowserRouter([
     path: "/",
     Component: RootLayout,
     children: [
-      // { index: true, Component:  },
-      // { path: "shop-now", Component: ShopNow },
+      { index: true, Component: Home },
+      // { path: "shop-now", Component: ShopN },
     ]
   }
 ]);
