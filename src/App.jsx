@@ -4,6 +4,7 @@ import Btn from './Components/Btn'
 import Footer from './Components/Footer'
 import Aboutuslastpart from './Pages/Hamim-Regwan/Aboutpage/Aboutuslastpart'
 import Aboutusfirstpart from './Pages/Hamim-Regwan/Aboutus1stpart/Aboutusfirstpart'
+import AboutusMain from './Pages/Hamim-Regwan/AboutusMain'
 
 
 const App = () => {
@@ -13,9 +14,8 @@ const App = () => {
           {/* <Btn>Call us</Btn> */}
           <Navbar />
 
-          <Aboutusfirstpart/>
-          <Aboutuslastpart/>
-          {/* <Footer/> */}
+          <AboutusMain/>
+          <Footer/>
     </div>
   )
 }
