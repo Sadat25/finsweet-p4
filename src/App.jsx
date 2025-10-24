@@ -1,16 +1,18 @@
-import React from 'react'
-import Navbar from './Components/Navbar'
-import Btn from './Components/Btn'
-import Footer from './Components/Footer'
+import Navbar from './Components/Navbar';
+import Btn from './Components/Btn';
+import Footer from './Components/Footer';
+import Banner from './Components/Banner';
+import BlogPage from './Pages/Jahangir/blogPage';
 
 const App = () => {
   return (
       <div>
           <Navbar />
-          <Btn>Call us</Btn>
+          <Banner />
+          <BlogPage />
           <Footer/>
     </div>
   )
 }
 
-export default App
+export default App;
