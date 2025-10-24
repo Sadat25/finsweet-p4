@@ -3,7 +3,7 @@ import client from '../../images/client.png'
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa6'
 const ClientsReview = () => {
     return (
-        <div className='py-10 md:py-20 bg-purple-50'>
+        <div className='py-10 md:py-20 bg-purple-50 dark:bg-slate-800'>
             <div className="container px-5 md:px-0">
                 <div className="flex justify-between gap-8 flex-col md:flex-row">
                     <div className="md:w-4/12">

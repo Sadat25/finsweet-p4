@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import HowWeWork from '../components/HowWeWork/HowWeWork'
 import OurProjects from '../components/OurProjects/OurProjects'
 import Features from '../components/Features/Features'
@@ -9,22 +9,26 @@ import Blogs from '../components/Blogs/Blogs'
 import Footer from '../../../Components/Footer'
 import Navbar from '../../../Components/Navbar'
 import Hero from '../Hero/Hero'
+import Toggle from '../components/Toggle/Toggle'
 
 const Home = () => {
-  return (
-    <div className='text-Dark-Blue'>
-        <Navbar/>
-        <Hero/>
-        <HowWeWork/>
-        <OurProjects/>
-        <Features/>
-        <ClientsReview/>
-        <FAQ/>
-        <Inquiry/>
-        <Blogs/>
-        <Footer/>
-    </div>
-  )
+    const [isDark, setisDark] = useState(false)
+    console.log(isDark);
+    return (
+        <div className={`${isDark && 'dark'} text-Dark-Blue dark:text-cyan-500 dark:bg-gray-700`}>
+            <Navbar />
+            <Hero />
+            <HowWeWork />
+            <OurProjects />
+            <Features />
+            <ClientsReview />
+            <FAQ />
+            <Inquiry />
+            <Blogs />
+            <Footer />
+            <Toggle setisDark={setisDark} />
+        </div>
+    )
 }
 
 export default Home

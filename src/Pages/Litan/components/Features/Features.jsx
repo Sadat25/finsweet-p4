@@ -8,7 +8,7 @@ import { LuSquarePen } from 'react-icons/lu'
 
 const Features = () => {
     return (
-        <div className='py-10 md:py-20 bg-gray-100'>
+        <div className='py-10 md:py-20 bg-gray-100 dark:bg-slate-900'>
             <div className="container px-5 md:px-0">
                 <div className="text-center">
                     <p>Features</p>

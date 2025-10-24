@@ -6,7 +6,7 @@ import pointer3 from '../../images/pointer3.png'
 import pointer4 from '../../images/pointer4.png'
 const HowWeWork = () => {
     return (
-        <div className='bg-gray-100 py-10 md:py-20'>
+        <div className='bg-gray-100 py-10 md:py-20 dark:bg-slate-900'>
             <div className="container px-5 md:px-0">
                 <div className="flex justify-between gap-8 flex-col md:flex-row">
                     <div className="md:w-5/12 space-y-3">

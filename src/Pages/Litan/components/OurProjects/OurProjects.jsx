@@ -6,7 +6,7 @@ import card3 from '../../images/card3.png'
 
 const OurProjects = () => {
     return (
-        <div className='bg-white py-10 md:py-20'>
+        <div className='bg-white py-10 md:py-20 dark:bg-slate-800'>
             <div className="container px-5 md:px-0">
                 <div className="flex justify-between items-center mb-10">
                     <h3 className='text-5xl font-bold'>View our projects</h3>

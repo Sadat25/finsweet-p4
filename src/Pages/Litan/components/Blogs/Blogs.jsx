@@ -6,7 +6,7 @@ import blog3 from '../../images/blog3.png'
 const Blogs = () => {
     return (
         <>
-            <div className='bg-white py-10 md:py-20'>
+            <div className='bg-white py-10 md:py-20 dark:bg-slate-900'>
                 <div className="container px-5 md:px-0">
                     <h2 className='text-5xl mb-10 font-bold'>Our Blog</h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
