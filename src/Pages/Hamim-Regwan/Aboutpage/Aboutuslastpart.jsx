@@ -11,6 +11,8 @@ import smith from "./Images/smith.png"
 import simon from "./Images/simon.png"
 import paul from "./Images/paul.png"
 import sara from "./Images/sara.png"
+import Navbar from '../../../Components/Navbar'
+import Footer from '../../../Components/Footer'
 
 
 
@@ -21,11 +23,9 @@ const Aboutuslastpart = () => {
 }
 
   return (
-    <div className={`${click ? 'dark':'' } dark:bg-black dark:text-white`}>
-    <div className='container flex justify-end'>
-      <button className='px-6 py-3 rounded-[10px] bg-[#EEF4FA] cursor-pointer text-[20px]'onClick={handlechange} >click</button>
-      </div>
-    <div className='bg-[#EEF4FA] dark:bg-gray-800 w-full  '>
+    <div className={`${click ? 'dark':'' } dark:bg-[#1C1E53] dark:text-white`}>
+      <Navbar/>
+    <div className='bg-[#EEF4FA] dark:bg-[#1C1E53] w-full  '>
       <div className='container lg:pt-32 pb-32   '>
         <div className=' lg:flex lg:justify-between grid-cols-2'>
           <div className='h-[228px] lg:text-left text-center'>
@@ -47,6 +47,9 @@ const Aboutuslastpart = () => {
     </div>
 
     <div className='container  pt-32 grid-cols-1'>
+    <div className='container flex justify-center'>
+      <button className='px-6 py-3 rounded-[10px] bg-[#1C1E53] text-white  dark:text-black dark:bg-[#EEF4FA] cursor-pointer text-[20px]'onClick={handlechange} >click</button>
+      </div>
       <div>
          <h1 className='text-[48px] font-Poppins font-semibold text-center'>The benefits of working <span className='block'>with us</span> </h1>
       </div>
@@ -77,30 +80,30 @@ const Aboutuslastpart = () => {
 
          <div className='lg:flex lg:gap-26 items-center lg:pl-0 pl-5  grid-cols-2'>
           <div className='flex gap-3 '>
-            <img src={logo1} alt="" className='w-5 h-5' />
+            <img src={logo1} alt="" className='w-5 h-5 dark:bg-white rounded-full' />
             <p className='font-Poppins font-medium'>logoipsum</p>
           </div>
            <div className='flex gap-3'>
-            <img src={logo1} alt="" className='w-5 h-5' />
+            <img src={logo1} alt="" className='w-5 h-5 dark:bg-white rounded-full ' />
             <p className='font-Poppins font-medium'>logoipsum</p>
           </div>
           <div className='flex gap-3'>
-            <img src={logo1} alt="" className='w-5 h-5' />
+            <img src={logo1} alt="" className='w-5 h-5 dark:bg-white rounded-full' />
             <p className='font-Poppins font-medium'>logoipsum</p>
           </div>
            <div className='flex gap-3'>
-            <img src={logo1} alt="" className='w-5 h-5' />
+            <img src={logo1} alt="" className='w-5 h-5 dark:bg-white rounded-full' />
             <p className='font-Poppins font-medium'>logoipsum</p>
           </div>
             <div className='flex gap-3'>
-            <img src={logo1} alt="" className='w-5 h-5' />
+            <img src={logo1} alt="" className='w-5 h-5 dark:bg-white rounded-full' />
             <p className='font-Poppins font-medium'>logoipsum</p>
           </div>
          </div>
       </div>
     </div>
 
-   <div className='bg-[#EEF4FA] pb-32 mt-32'>
+   <div className='bg-[#EEF4FA] dark:bg-[#1C1E53] dark: pb-32 mt-32'>
     <div className='container'>
       <h1 className='text-[48px] font-semibold font-Poppins text-center pt-32'>Meet our team</h1>
       <div className='lg:flex lg:justify-between grid-cols-3 mt-12'>
@@ -124,14 +127,11 @@ const Aboutuslastpart = () => {
         title="Sara Hardin"
         para="Project Manager"
         />
-        
       </div>
-
     </div>
-
    </div>
-
-    </div>
+   <Footer/>
+  </div>
 
   )
 }

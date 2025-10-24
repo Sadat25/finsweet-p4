@@ -8,10 +8,10 @@ import Aboutuslastpart from './Pages/Hamim-Regwan/Aboutpage/Aboutuslastpart'
 const App = () => {
   return (
       <div>
-          <Navbar />
-          <Btn>Call us</Btn>
+          {/* <Navbar /> */}
+          {/* <Btn>Call us</Btn> */}
           <Aboutuslastpart/>
-          <Footer/>
+          {/* <Footer/> */}
     </div>
   )
 }
