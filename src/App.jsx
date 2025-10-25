@@ -10,6 +10,7 @@ import Riat from './Pages/Riat/Riat';
 import { Policy } from './Pages/Ahnaf/Policy';
 import Readmore from './Pages/Antara/Readmore';
 import Features from './Pages/Sumon-Kibria/Features';
+import rafin from './Pages/Tawsif/rafin';
 
 
 
@@ -27,6 +28,7 @@ const router = createBrowserRouter([
       { path: "policy", Component: Policy},
       { path: "read-blog", Component: Readmore},
       { path: "features", Component: Features},
+      { path: "read", Component: rafin},
     ]
   }
 ]);
