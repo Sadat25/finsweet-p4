@@ -3,11 +3,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import RootLayout from './RootLayout';
 import Home from './Pages/Litan/Home/Home';
 import BlogPage from './Pages/Jahangir/blogPage';
-import AboutusMain from './Pages/Hamim-Regwan/AboutusMain'
-
-import Work from './Pages/Ahnaf/Work';
-import Contact from './Components/Contact';
-import PrivacyPolicy from './Components/PrivacyPolicy';
+import AboutusMain from './Pages/Hamim-Regwan/AboutusMain';
+import Work from './Pages/Motasin/Work';
+import Contact from './Pages/Ahnaf/ContuctUs';
 
 
 
@@ -21,10 +19,7 @@ const router = createBrowserRouter([
       { path: "about", Component: AboutusMain },
       { path: "work", Component: Work},
       { path: "contact", Component: Contact},
-      { path: "policy", Component: PrivacyPolicy},
-      
-      
-      
+      // { path: "policy", Component: Policy},
     ]
   }
 ]);
