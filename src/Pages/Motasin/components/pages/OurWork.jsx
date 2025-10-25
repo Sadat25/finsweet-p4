@@ -58,7 +58,7 @@ const OurWork = () => {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    class="size-5 dark:fill-amber-50"
+                    className="size-5 dark:fill-amber-50"
                   >
                     <path
                       fill-rule="evenodd"
@@ -88,7 +88,7 @@ const OurWork = () => {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    class="size-5 dark:fill-amber-50"
+                    className="size-5 dark:fill-amber-50"
                   >
                     <path
                       fill-rule="evenodd"
@@ -121,7 +121,7 @@ const OurWork = () => {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    class="size-5 dark:fill-amber-50"
+                    className="size-5 dark:fill-amber-50"
                   >
                     <path
                       fill-rule="evenodd"
@@ -150,7 +150,7 @@ const OurWork = () => {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    class="size-5 dark:fill-amber-50"
+                    className="size-5 dark:fill-amber-50"
                   >
                     <path
                       fill-rule="evenodd"
@@ -185,7 +185,7 @@ const OurWork = () => {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    class="size-5 dark:fill-amber-50"
+                    className="size-5 dark:fill-amber-50"
                   >
                     <path
                       fill-rule="evenodd"
@@ -213,7 +213,7 @@ const OurWork = () => {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    class="size-5 dark:fill-amber-50"
+                    className="size-5 dark:fill-amber-50"
                   >
                     <path
                       fill-rule="evenodd"
