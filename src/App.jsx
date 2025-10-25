@@ -1,14 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar from './Components/Navbar'
-import Btn from './Components/Btn'
 import Footer from './Components/Footer'
+import Readmore from './Pages/Antara/Readmore'
+
 
 const App = () => {
-  return (
+ return (
       <div>
-          <Navbar />
-          <Btn>Call us</Btn>
-          <Footer/>
+         
+          <Readmore/>
+        
     </div>
   )
 }
