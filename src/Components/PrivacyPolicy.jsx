@@ -48,8 +48,9 @@ const PrivacyPolicy = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit..
           </h2>
           <p className='text-[16px] font-Poppins font-regular pt-2 text-[#282938] dark:text-gray-300'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident..
           </p>
+          <p className='text-[16px] font-Poppins font-regular pt-2 text-[#282938] dark:text-gray-300'>Sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           <ul className='py-4 text-[#282938] dark:text-gray-300'>
             <li className='text-[16px] font-Poppins font-regular flex items-start py-2 gap-2'>
               <GoDotFill className='mt-1' />Lorem ipsum dolor sit amet.
@@ -62,7 +63,7 @@ const PrivacyPolicy = () => {
             </li>
           </ul>
           <p className='text-[16px] font-Poppins font-regular text-[#282938] dark:text-gray-300'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
           </p>
         </div>
       </div>
