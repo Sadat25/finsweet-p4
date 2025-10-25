@@ -38,9 +38,8 @@ const PrivacyPolicy = () => {
           <h2 className='text-[28px] sm:text-[32px] lg:text-[38px] font-Poppins font-bold py-2 dark:text-white'>
             Lorem ipsum dolor.
           </h2>
-          <p className='text-[16px] font-Poppins font-regular pt-2 text-[#282938] dark:text-gray-300'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...
-          </p>
+          <p className='text-[16px] font-Poppins font-regular pt-2 text-[#282938] dark:text-gray-300'>Sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p className='text-[16px] font-Poppins font-regular pt-2 text-[#282938] dark:text-gray-300'>Sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
 
         <div className='w-full max-w-4xl mx-auto pt-8 px-4 md:px-0'>
@@ -50,7 +49,7 @@ const PrivacyPolicy = () => {
           <p className='text-[16px] font-Poppins font-regular pt-2 text-[#282938] dark:text-gray-300'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident..
           </p>
-          <p className='text-[16px] font-Poppins font-regular pt-2 text-[#282938] dark:text-gray-300'>Sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          
           <ul className='py-4 text-[#282938] dark:text-gray-300'>
             <li className='text-[16px] font-Poppins font-regular flex items-start py-2 gap-2'>
               <GoDotFill className='mt-1' />Lorem ipsum dolor sit amet.
