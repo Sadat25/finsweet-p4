@@ -6,6 +6,7 @@ import BlogPage from './Pages/Jahangir/blogPage';
 import AboutusMain from './Pages/Hamim-Regwan/AboutusMain';
 import Work from './Pages/Motasin/Work';
 import Contact from './Pages/Ahnaf/ContuctUs';
+import Riat from './Pages/Riat/Riat';
 
 
 
@@ -19,7 +20,7 @@ const router = createBrowserRouter([
       { path: "about", Component: AboutusMain },
       { path: "work", Component: Work},
       { path: "contact", Component: Contact},
-      // { path: "policy", Component: Policy},
+      { path: "pricing", Component: Riat},
     ]
   }
 ]);
