@@ -41,12 +41,12 @@ const Footer = () => {
             <div className='container py-8 flex items-center justify-between'>
                 <p>Copyright 2022, Finsweet.com</p>
                 <ul className='flex items-center gap-8 '>
-                    <li className="   font-Poppins font-medium leading-[26px] cursor-pointer">Home</li>
-                    <li className="   font-Poppins font-medium leading-[26px] cursor-pointer">About us</li>
-                    <li className="   font-Poppins font-medium leading-[26px] cursor-pointer">Features</li>
-                    <li className="   font-Poppins font-medium leading-[26px] cursor-pointer">Pricing</li>
-                    <li className="   font-Poppins font-medium leading-[26px] cursor-pointer">FAQ</li>
-                    <li className="   font-Poppins font-medium leading-[26px] cursor-pointer">Blog</li>
+                    <li className="font-Poppins font-medium leading-[26px] cursor-pointer">Home</li>
+                    <li className="font-Poppins font-medium leading-[26px] cursor-pointer">About us</li>
+                    <li className="font-Poppins font-medium leading-[26px] cursor-pointer">Features</li>
+                    <li className="font-Poppins font-medium leading-[26px] cursor-pointer">Pricing</li>
+                    <li className="font-Poppins font-medium leading-[26px] cursor-pointer">FAQ</li>
+                    <li className="font-Poppins font-medium leading-[26px] cursor-pointer">Blog</li>
                 </ul>
             </div>
         </div>
