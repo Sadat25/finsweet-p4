@@ -9,6 +9,7 @@ import Contact from './Pages/Ahnaf/ContuctUs';
 import Riat from './Pages/Riat/Riat';
 import { Policy } from './Pages/Ahnaf/Policy';
 import Readmore from './Pages/Antara/Readmore';
+import Features from './Pages/Sumon-Kibria/Features';
 
 
 
@@ -25,6 +26,7 @@ const router = createBrowserRouter([
       { path: "pricing", Component: Riat},
       { path: "policy", Component: Policy},
       { path: "read-blog", Component: Readmore},
+      { path: "features", Component: Features},
     ]
   }
 ]);
