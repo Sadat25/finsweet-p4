@@ -9,7 +9,7 @@ const TemplateReusable = ({ image, bg, title }) => {
         
        
         <div className={bg} >
-                <img className='pt-7 mx-auto h-[380px] object-cover' src={image} alt={title} /> 
+                <img className='pt-7 mx-auto h-[340px] ' src={image} alt={title} /> 
             </div>
             
           
