@@ -12,13 +12,13 @@ const Template = () => {
   return (
     <>
       <div className='py-10'>
-        <div className='container max-w-[1280px] mx-auto px-4 md:px-8'> {/* Add max-width and padding for smaller screens */}
+        <div className='container max-w-[1280px] mx-auto px-4 md:px-8'>
           <div className='w-full '>
-            <ul className='flex flex-wrap gap-3 justify-center'> {/* Use flex-wrap for smaller screens */}
-              <li className='font-Poppins text-[16px] md:text-[18px] text-[#282938] hover:text-Royal-Blue transition ease-in-out cursor-pointer'>All</li>
-              <li className='font-Poppins text-[16px] md:text-[18px] text-[#282938] hover:text-Royal-Blue transition ease-in-out cursor-pointer'>UI Design</li>
-              <li className='font-Poppins text-[16px] md:text-[18px] text-[#282938] hover:text-Royal-Blue transition ease-in-out cursor-pointer'>Webflow Design</li>
-              <li className='font-Poppins text-[16px] md:text-[18px] text-[#282938] hover:text-Royal-Blue transition ease-in-out cursor-pointer'>Figma Design</li>
+            <ul className='flex flex-wrap gap-3 justify-center '> 
+              <li className='font-Poppins text-[16px] md:text-[18px] text-[#282938] hover:text-Royal-Blue transition ease-in-out cursor-pointer dark:text-white'>All</li>
+              <li className='font-Poppins text-[16px] md:text-[18px] text-[#282938] hover:text-Royal-Blue transition ease-in-out cursor-pointer dark:text-white'>UI Design</li>
+              <li className='font-Poppins text-[16px] md:text-[18px] text-[#282938] hover:text-Royal-Blue transition ease-in-out cursor-pointer dark:text-white'>Webflow Design</li>
+              <li className='font-Poppins text-[16px] md:text-[18px] text-[#282938] hover:text-Royal-Blue transition ease-in-out cursor-pointer dark:text-white'>Figma Design</li>
             </ul>
           </div>
           
