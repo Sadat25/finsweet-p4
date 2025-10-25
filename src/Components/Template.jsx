@@ -12,7 +12,7 @@ const Template = () => {
   return (
     <>
       <div className='py-10'>
-        <div className='container max-w-[1280px] mx-auto px-4 md:px-8'>
+        <div className='container  mx-auto px-4 md:px-8'>
           <div className='w-full '>
             <ul className='flex flex-wrap gap-3 justify-center '> 
               <li className='font-Poppins text-[16px] md:text-[18px] text-[#282938] hover:text-Royal-Blue transition ease-in-out cursor-pointer dark:text-white'>All</li>
