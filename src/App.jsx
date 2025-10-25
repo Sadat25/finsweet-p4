@@ -7,6 +7,7 @@ import AboutusMain from './Pages/Hamim-Regwan/AboutusMain';
 import Work from './Pages/Motasin/Work';
 import Contact from './Pages/Ahnaf/ContuctUs';
 import Riat from './Pages/Riat/Riat';
+import { Policy } from './Pages/Ahnaf/Policy';
 
 
 
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
       { path: "work", Component: Work},
       { path: "contact", Component: Contact},
       { path: "pricing", Component: Riat},
+      { path: "policy", Component: Policy},
     ]
   }
 ]);
