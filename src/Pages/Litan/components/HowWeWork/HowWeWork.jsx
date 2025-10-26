@@ -10,7 +10,7 @@ const HowWeWork = () => {
             <div className="container px-5 md:px-0">
                 <div className="flex justify-between gap-8 flex-col md:flex-row">
                     <div className="md:w-5/12 space-y-3">
-                        <h2 className='text-5xl font-bold'>How we work</h2>
+                        <h2 className='md:text-5xl text-3xl font-bold'>How we work</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                         <a className='text-Royal-Blue text-lg font-medium flex items-center gap-2' href="/">Get in touch with us <FaArrowRightLong /></a>
                     </div>

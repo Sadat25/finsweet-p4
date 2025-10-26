@@ -22,7 +22,7 @@ const Home = () => {
             <FAQ />
             <Inquiry />
             <Blogs />
-            <Toggle setisDark={setisDark} />
+            {/* <Toggle setisDark={setisDark} /> */}
         </div>
     )
 }
