@@ -16,12 +16,12 @@ const WorkPortfolio = () => {
       </h3>
 
      
-      <h2 className="text-[#282938] text-[28px] sm:text-[36px] md:text-[42px] lg:text-[48px] font-bold font-Poppins mt-2 dark:text-white">
+      <h2 className="text-[#282938] text-[28px]  md:text-[42px] lg:text-[48px] font-bold font-Poppins mt-2 dark:text-white">
         Our Work Portfolio
       </h2>
 
     
-      <p className="text-[#282938] text-[12px] sm:text-[14px] md:text-[16px] font-medium font-Poppins max-w-[700px] mx-auto mt-4 leading-relaxed px-2 dark:text-white">
+      <p className="text-[#282938] lg:text-[16px]  md:text-[16px] font-medium font-Poppins lg:w-[700px] md:w-full mx-auto mt-4  px-2 dark:text-white">
         We help teams create great digital products by providing them with tools and technology to make the design-to-code process universally accessible.
       </p>
 

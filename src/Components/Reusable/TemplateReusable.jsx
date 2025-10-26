@@ -9,15 +9,15 @@ const TemplateReusable = ({ image, bg, title }) => {
         
        
         <div className={bg} >
-                <img className='pt-7 mx-auto h-[340px] ' src={image} alt={title} /> 
+                <img className='pt-7 mx-auto lg:h-[340px]' src={image} alt={title} /> 
             </div>
             
           
-            <h1 className='text-[28px] sm:text-[32px] md:text-[38px] text-[#282938] font-Poppins font-semibold dark:text-white'>{title} </h1>
+            <h1 className='text-[28px]  text-[#282938] font-Poppins font-semibold dark:text-white pt-[24px]'>{title} </h1>
           
-            <p className='text-[16px] text-[#282938] font-Poppins font-normal dark:text-white'>Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
+            <p className='lg:text-[16px] md:text-[12px] text-[#282938] font-Poppins font-normal dark:text-white pt-[12px] lg:w-[600px] md:w-full'>Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
             
-            <a className='flex items-center gap-1.5 py-2 dark:text-white' href="#">View Portfolio <FaArrowRightLong /></a>
+            <a className='flex items-center gap-1.5 py-2 dark:text-white pt-[24px] pb-[64px]' href="#">View Portfolio <FaArrowRightLong /></a>
         </div>
             
         </>
