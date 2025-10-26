@@ -5,8 +5,8 @@ import { FaArrowRightLong } from 'react-icons/fa6'
 const Inquiry = () => {
     return (
         <div>
-            <div className="container px-5 md:px-0 dark:bg-slate-800">
-                <div className="flex bg-Tint-Blue flex-col md:flex-row gap-8">
+            <div className="container px-5 md:px-0 bg-Tint-Blue">
+                <div className="flex flex-col md:flex-row gap-8">
                     <div className="md:w-1/2 relative">
                         <img className='w-full' src={inquiry} alt="inquiry" />
                         <div className="absolute inset-0 bg-Tint-Blue/50 flex justify-center items-center">
