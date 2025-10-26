@@ -27,16 +27,16 @@ const Aboutuslastpart = () => {
       <Navbar/>
     <div className='bg-[#EEF4FA] dark:bg-Tint-Blue w-full  '>
       <div className='container lg:pt-32 pb-32   '>
-        <div className=' lg:flex lg:justify-between grid-cols-2'>
+        <div className=' lg:flex lg:justify-between flex flex-col-reverse lg:flex-row'>
           <div className='h-[228px] lg:text-left text-center'>
             <h3 className='font-Poppins font-medium pt-13.5  '>Our Mission </h3>
             <h1 className='lg:text-[38px] text-[20px] font-semibold font-Poppins pt-4 '>Inspire, Innovate, Share</h1>
             <p className='font-Poppins lg:w-[663px]   leading-7   pt-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
-          <img src={bg2} alt="" className='w-[514px] h-[336px] pt-25 lg:pt-0' />
+          <img src={bg2} alt="" className='w-[514px] h-[336px]  pt-0 mx-auto lg:mx-0 ' />
         </div>
-        <div className=' lg:flex lg:justify-between grid-cols-2 lg:mt-24 mt-5  '>
-          <img src={bg1} alt="" className='w-[514px] h-[336px]' />
+        <div className=' lg:flex lg:justify-between grid-cols-2 lg:mt-24  sm:mt-30  '>
+          <img src={bg1} alt="" className='w-[514px] h-[336px] mx-auto' />
           <div className='h-[228px] lg:text-left text-center'>
             <h3 className='font-Poppins font-medium pt-13.5  '>Our Vision </h3>
             <h1 className='lg:text-[38px] text-[20px] font-semibold font-Poppins pt-4 '>Laser focus</h1>
@@ -46,15 +46,15 @@ const Aboutuslastpart = () => {
       </div>
     </div>
 
-    <div className='container  pt-32 grid-cols-1'>
+    <div className='container  lg:pt-32 pt-10 grid-cols-1'>
     <div className='container flex justify-center'>
       <button className='px-6 py-3 rounded-[10px] bg-Tint-Blue text-white  dark:text-black dark:bg-[#EEF4FA] cursor-pointer text-[20px]'onClick={handlechange} >click</button>
       </div>
       <div>
-         <h1 className='text-[48px] font-Poppins font-semibold text-center'>The benefits of working <span className='block'>with us</span> </h1>
+         <h1 className='lg:text-[48px] font-Poppins font-semibold text-center'>The benefits of working <span className='block'>with us</span> </h1>
       </div>
 
-      <div className='lg:flex lg:justify-between grid-cols-3 mt-12'>
+      <div className='grid gap-5 lg:grid-cols-3  grid-cols-1 sm:grid-cols-2   mt-12'>
         <Card
         img={Icon1}
         title="Customize with ease"
@@ -72,10 +72,10 @@ const Aboutuslastpart = () => {
         />
       </div>
 
-      <div className='h-[84px] lg:flex lg:gap-22.5 mt-12 grid-cols-2 lg:text-left text-center '>
+      <div className='h-[84px] lg:flex lg:gap-22.5 mt-12 grid-cols-2 lg:text-left  '>
          <div>
-          <h2 className='text-[38px] font-Poppins font-semibold'>100.000+</h2>
-          <p>Finsweet Users</p>
+          <h2 className='lg:text-[38px] font-Poppins font-semibold lg:pl-0 pl-5 '>100.000+</h2>
+          <p className='lg:pl-0 pl-5'>Finsweet Users</p>
          </div>
 
          <div className='lg:flex lg:gap-26 items-center lg:pl-0 pl-5  grid-cols-2'>
@@ -103,10 +103,10 @@ const Aboutuslastpart = () => {
       </div>
     </div>
 
-   <div className='bg-[#EEF4FA] dark:bg-Tint-Blue dark: pb-32 mt-32'>
+   <div className='bg-[#EEF4FA] dark:bg-Tint-Blue dark: lg:pb-32 pb-4 mt-32'>
     <div className='container'>
-      <h1 className='text-[48px] font-semibold font-Poppins text-center pt-32'>Meet our team</h1>
-      <div className='lg:flex lg:justify-between grid-cols-3 mt-12'>
+      <h1 className='lg:text-[48px] font-semibold font-Poppins text-center lg:pt-32 pt-3'>Meet our team</h1>
+      <div className='grid gap-5 lg:grid-cols-4  grid-cols-1 sm:grid-cols-2 lg:mt-12 mt-2'>
         <Card2
         img={smith}
         title="John Smith"

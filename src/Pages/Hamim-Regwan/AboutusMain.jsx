@@ -5,8 +5,8 @@ import Aboutuslastpart from './Aboutpage/Aboutuslastpart'
 const AboutusMain = () => {
   return (
     <div>
-      <Aboutusfirstpart/>
-      <Aboutuslastpart/>
+      {/* <Aboutusfirstpart/>
+      <Aboutuslastpart/> */}
     </div>
   )
 }
