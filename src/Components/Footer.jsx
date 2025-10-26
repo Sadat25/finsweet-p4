@@ -10,7 +10,7 @@ import { NavLink } from 'react-router';
 const Footer = () => {
     return (
         <div>
-            <footer className='bg-Tint-Blue pt-24 mt-32 '>
+            <footer className='bg-Tint-Blue pt-24'>
                 <Container className="lg:flex px-20 lg:px-0 pb-10 lg:pb-0">
                     <div className='lg:w-1/2 mb-10 lg:mb-0'>
                         <img src={logo} alt="" />
@@ -39,8 +39,8 @@ const Footer = () => {
                 </Container>
             </footer>
             <div className='container py-8 lg:flex items-center justify-between'>
-                <p className='text-center '>Copyright 2022, Finsweet.com</p>
-                <ul className='lg:flex items-center gap-8 text-center'>
+                <p className='text-center '>Copyright 2025, Finsweet.com</p>
+                <ul className='lg:flex items-center gap-8 text-center hidden'>
                     <NavLink to="/">
                         {({ isActive }) => (
                             <li className={isActive ? "text-black font-bold" : "text-[#494971] hover:text-black font-Poppins font-medium leading-[26px] cursor-pointer"}>Home</li>

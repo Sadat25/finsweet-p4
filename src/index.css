@@ -20,6 +20,7 @@
   --color-Royal-Blue: #2405F2;
   --color-Tint-Blue: #1C1E53;
   --color-Dark-Blue: #232536;
+  --color-light: #FCD980;
 }
 
 @layer utility {
