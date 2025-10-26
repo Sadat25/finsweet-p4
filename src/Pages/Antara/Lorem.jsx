@@ -6,8 +6,8 @@ const Lorem = () => {
 
     return (
         <section>
-            <Container>
-                <div className="lg:px-[230px] px-[90px] mx-auto justify-center items-center mt-6 lg:mt-[42px]">
+          <div className="container">
+                <div className="max-w-[842px] mx-auto px-4  justify-center items-center mt-6 lg:mt-[42px]">
                     <h2 className=' lg:text-[38px] text-[18px] font-Poppins font-semibold lg:leading-14'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                     <p className='lg:mt-8 mt-3 font-Poppins font-normal text-[12px] lg:text-[16px] leading-5 lg:leading-7'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullam laboris nisi ut aliquip ex ea
@@ -50,7 +50,7 @@ const Lorem = () => {
 
                 </div>
 
-            </Container>
+            </div>
         </section>
 
     )
