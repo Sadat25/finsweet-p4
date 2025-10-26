@@ -6,7 +6,7 @@ import Lorem from '../Antara/Lorem'
 const Readmore = () => {
     const [dark, setDark] = useState(false)
     return (
-        <div className={`${dark && "dark"} dark:bg-black dark:text-white`}>
+        <div className={`${dark && "dark"} dark:bg-Tint-Blue dark:text-white`}>
 
             <label className="inline-flex items-center cursor-pointer  fixed top-[130px] right-[100px]">
                 <input type="checkbox" onClick={() => setDark(!dark)} value="" class="sr-only peer" />
