@@ -47,12 +47,12 @@ const OurWork = () => {
                 <h4 className="pt-6 font-Poppins font-medium md:font-semibold text-2xl md:text-[38px] dark:text-gray-50 text-Dark-Blue">
                   Template 1
                 </h4>
-                <p className="py-3 lg:py-5 md:w-[350px] lg:w-[600px] font-Poppins text-[10px] dark:text-gray-50 text-Dark-Blue">
+                <p className="py-3 lg:py-5 md:w-[350px] lg:w-[600px] font-Poppins text-[10px] lg:text-base dark:text-gray-50 text-Dark-Blue">
                   Apparently we had reached a great height in the atmosphere,
                   for the sky was a dead black, and the stars had ceased to
                   twinkle.
                 </p>
-                <a href="#" className="flex items-center font-Poppins font-medium text-[12px] dark:text-gray-50 text-Dark-Blue">
+                <a href="#" className="flex items-center font-Poppins font-medium text-[12px] lg:text-base dark:text-gray-50 text-Dark-Blue">
                   View Portfolio
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -77,12 +77,12 @@ const OurWork = () => {
                 <h4 className="pt-6 font-Poppins font-medium md:font-semibold text-2xl md:text-[38px] dark:text-gray-50 text-Dark-Blue">
                   Template 2
                 </h4>
-                <p className="py-3 lg:py-5 md:w-[350px] lg:w-[600px] font-Poppins text-[10px] dark:text-gray-50 text-Dark-Blue">
+                <p className="py-3 lg:py-5 md:w-[350px] lg:w-[600px] font-Poppins text-[10px] lg:text-base dark:text-gray-50 text-Dark-Blue">
                   Apparently we had reached a great height in the atmosphere,
                   for the sky was a dead black, and the stars had ceased to
                   twinkle.
                 </p>
-                <a href="#" className="flex items-center font-Poppins font-medium text-[12px] dark:text-gray-50 text-Dark-Blue">
+                <a href="#" className="flex items-center font-Poppins font-medium text-[12px] lg:text-base dark:text-gray-50 text-Dark-Blue">
                   View Portfolio
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -110,12 +110,12 @@ const OurWork = () => {
                 <h4 className="pt-6 font-Poppins font-medium md:font-semibold text-2xl md:text-[38px] dark:text-gray-50 text-Dark-Blue">
                   Template 3
                 </h4>
-                <p className="py-3 lg:py-5 md:w-[350px] lg:w-[600px] font-Poppins text-[10px] dark:text-gray-50 text-Dark-Blue">
+                <p className="py-3 lg:py-5 md:w-[350px] lg:w-[600px] font-Poppins text-[10px] lg:text-base dark:text-gray-50 text-Dark-Blue">
                   Apparently we had reached a great height in the atmosphere,
                   for the sky was a dead black, and the stars had ceased to
                   twinkle.
                 </p>
-                <a href="#" className="flex items-center font-Poppins font-medium text-[12px] dark:text-gray-50 text-Dark-Blue">
+                <a href="#" className="flex items-center font-Poppins font-medium text-[12px] lg:text-base dark:text-gray-50 text-Dark-Blue">
                   View Portfolio
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -139,12 +139,12 @@ const OurWork = () => {
                 <h4 className="pt-6 font-Poppins font-medium md:font-semibold text-2xl md:text-[38px] dark:text-gray-50 text-Dark-Blue">
                   Template 4
                 </h4>
-                <p className="py-3 lg:py-5 md:w-[350px] lg:w-[600px] font-Poppins text-[10px] dark:text-gray-50 text-Dark-Blue">
+                <p className="py-3 lg:py-5 md:w-[350px] lg:w-[600px] font-Poppins text-[10px] lg:text-base dark:text-gray-50 text-Dark-Blue">
                   Apparently we had reached a great height in the atmosphere,
                   for the sky was a dead black, and the stars had ceased to
                   twinkle.
                 </p>
-                <a href="#" className="flex items-center font-Poppins font-medium text-[12px] dark:text-gray-50 text-Dark-Blue">
+                <a href="#" className="flex items-center font-Poppins font-medium text-[12px] lg:text-base dark:text-gray-50 text-Dark-Blue">
                   View Portfolio
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -174,12 +174,12 @@ const OurWork = () => {
                 <h4 className="pt-6 font-Poppins font-medium md:font-semibold text-2xl md:text-[38px] dark:text-gray-50 text-Dark-Blue">
                   Template 5
                 </h4>
-                <p className="py-3 lg:py-5 md:w-[350px] lg:w-[600px] font-Poppins text-[10px] dark:text-gray-50 text-Dark-Blue">
+                <p className="py-3 lg:py-5 md:w-[350px] lg:w-[600px] font-Poppins text-[10px] lg:text-base dark:text-gray-50 text-Dark-Blue">
                   Apparently we had reached a great height in the atmosphere,
                   for the sky was a dead black, and the stars had ceased to
                   twinkle.
                 </p>
-                <a href="#" className="flex items-center font-Poppins font-medium text-[12px] dark:text-gray-50 text-Dark-Blue">
+                <a href="#" className="flex items-center font-Poppins font-medium text-[12px] lg:text-base dark:text-gray-50 text-Dark-Blue">
                   View Portfolio
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -203,12 +203,12 @@ const OurWork = () => {
                 <h4 className="pt-6 font-Poppins font-medium md:font-semibold text-2xl md:text-[38px] dark:text-gray-50 text-Dark-Blue">
                   Template 6
                 </h4>
-                <p className="py-3 lg:py-5 md:w-[350px] lg:w-[600px] font-Poppins text-[10px] dark:text-gray-50 text-Dark-Blue">
+                <p className="py-3 lg:py-5 md:w-[350px] lg:w-[600px] font-Poppins text-[10px] lg:text-base dark:text-gray-50 text-Dark-Blue">
                   Apparently we had reached a great height in the atmosphere,
                   for the sky was a dead black, and the stars had ceased to
                   twinkle.
                 </p>
-                <a href="#" className="flex items-center font-Poppins font-medium text-[12px] dark:text-gray-50 text-Dark-Blue">
+                <a href="#" className="flex items-center font-Poppins font-medium text-[12px] lg:text-base dark:text-gray-50 text-Dark-Blue">
                   View Portfolio
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
