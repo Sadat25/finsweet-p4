@@ -2,7 +2,7 @@ import React from 'react'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import RootLayout from './RootLayout';
 import Home from './Pages/Litan/Home/Home';
-import BlogPage from './Pages/Jahangir/blogPage';
+import BlogPage from './Pages/Jahangir/BlogPage';
 import AboutusMain from './Pages/Hamim-Regwan/AboutusMain';
 import Work from './Pages/Motasin/Work';
 import Contact from './Pages/Ahnaf/ContuctUs';

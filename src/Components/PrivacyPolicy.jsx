@@ -3,25 +3,10 @@ import { FaMoon, FaSun } from 'react-icons/fa6'
 import { GoDotFill } from 'react-icons/go'
 
 const PrivacyPolicy = () => {
-  const [show, setShow] = useState(false)
-
-  useEffect(() => {
-    if (show) {
-      document.documentElement.classList.add('dark')
-    } else {
-      document.documentElement.classList.remove('dark')
-    }
-  }, [show])
 
   return (
     <div className='dark:bg-Dark-Blue'>
       <div className="p-4 flex justify-end">
-        <button
-          onClick={() => setShow(!show)}
-          className="p-2 rounded-full bg-gray-200 dark:bg-gray-700"
-        >
-          {show ? <FaSun className="text-yellow-400" /> : <FaMoon className="text-gray-800" />}
-        </button>
       </div>
 
       <div className='container mx-auto px-4 md:px-8 py-10 dark:bg-Dark-Blue'>

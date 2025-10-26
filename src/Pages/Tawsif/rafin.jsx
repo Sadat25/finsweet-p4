@@ -1,16 +1,74 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Container from '../../Components/Container'
+import second from '../../assets/Main image.png'
+import men from "../../assets/men's.png"
 
-const rafin = () => {
+const Rafin = () => {
+
   return (
-    <section className="bg-white dark:bg-gray-900">
-      <div className="py-8 px-4 mx-auto max-w-screen-md text-center lg:py-16 lg:px-12">
-        <svg className="mx-auto mb-4 w-10 h-10 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M331.8 224.1c28.29 0 54.88 10.99 74.86 30.97l19.59 19.59c40.01-17.74 71.25-53.3 81.62-96.65c5.725-23.92 5.34-47.08 .2148-68.4c-2.613-10.88-16.43-14.51-24.34-6.604l-68.9 68.9h-75.6V97.2l68.9-68.9c7.912-7.912 4.275-21.73-6.604-24.34c-21.32-5.125-44.48-5.51-68.4 .2148c-55.3 13.23-98.39 60.22-107.2 116.4C224.5 128.9 224.2 137 224.3 145l82.78 82.86C315.2 225.1 323.5 224.1 331.8 224.1zM384 278.6c-23.16-23.16-57.57-27.57-85.39-13.9L191.1 158L191.1 95.99l-127.1-95.99L0 63.1l96 127.1l62.04 .0077l106.7 106.6c-13.67 27.82-9.251 62.23 13.91 85.39l117 117.1c14.62 14.5 38.21 14.5 52.71-.0016l52.75-52.75c14.5-14.5 14.5-38.08-.0016-52.71L384 278.6zM227.9 307L168.7 247.9l-148.9 148.9c-26.37 26.37-26.37 69.08 0 95.45C32.96 505.4 50.21 512 67.5 512s34.54-6.592 47.72-19.78l119.1-119.1C225.5 352.3 222.6 329.4 227.9 307zM64 472c-13.25 0-24-10.75-24-24c0-13.26 10.75-24 24-24S88 434.7 88 448C88 461.3 77.25 472 64 472z" /></svg>
-        <h1 className="mb-4 text-4xl font-bold tracking-tight leading-none text-gray-900 lg:mb-6 md:text-5xl xl:text-6xl dark:text-white">Under Maintenance</h1>
-        <p className="font-light text-gray-500 md:text-lg xl:text-xl dark:text-gray-400">Our Enterprise administrators are performing scheduled maintenance.</p>
+    <>
+      <div >
+        <Container className="px-25 ">
+          <h2 className='text-Dark-Blue/80 dark:text-white font-Poppins font-medium text-2xl leading-9 mt-10'>Web design and development</h2>
+          <h1 className='text-Dark-Blue dark:text-white font-Poppins font-semibold text-5xl leading-16 my-3.5'>Finsweet Design case <br /> studies</h1>
+          <p className='text-Dark-Blue/70 dark:text-white font-Poppins font-medium leading-7 lg:w-[817px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+          <img className='my-12' src={second} alt="" />
+          <div className='flex items-center pb-8 border-b border-Dark-Blue/30 '>
+            <div className='w-[30%]'>
+              <p className='text-Dark-Blue/80 dark:text-white font-Poppins font-medium leading-7 mb-1'>Client</p>
+              <p className='text-Dark-Blue dark:text-white font-Poppins font-medium text-2xl leading-9'>facebook.com</p>
+            </div>
+            <div className='w-[30%]'>
+              <p className='text-Dark-Blue/80 dark:text-white font-Poppins font-medium leading-7 mb-1'>Service</p>
+              <p className='text-Dark-Blue dark:text-white font-Poppins font-medium text-2xl leading-9'>Product Design</p>
+            </div>
+            <div className='w-[40%]'>
+              <p className='text-Dark-Blue/80 dark:text-white font-Poppins font-medium leading-7 mb-1'>Deliverable</p>
+              <p className='text-Dark-Blue dark:text-white font-Poppins font-medium text-2xl leading-9'>UI Screens, UX Flow & Prototype</p>
+            </div>
+          </div>
+          <div className='lg:px-[166px] mt-24'>
+            <h1 className='text-Dark-Blue dark:text-white font-Poppins font-semibold text-[38px] leading-14 mb-3'>About the project</h1>
+            <p className='text-Dark-Blue/70 dark:text-white font-Poppins leading-7'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <ul className='ml-4.5 mt-6 text-Dark-Blue/70 dark:text-white font-Poppins leading-7'>
+              <li className='list-disc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+              <li className='list-disc py-4'>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</li>
+              <li className='list-disc'>Duis aute irure dolor in reprehenderit in voluptate velit esse</li>
+              <li className='list-disc py-4'>Excepteur sint occaecat cupidatat non proident, sunt in culpa</li>
+            </ul>
+            <img className='my-16' src={men} alt="" />
+            <h1 className='text-Dark-Blue dark:text-white font-Poppins font-semibold text-[38px] leading-14 mb-3'>How we do it</h1>
+            <p className='text-Dark-Blue/70 dark:text-white font-Poppins leading-7'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <ul className='ml-4.5 mt-6 text-Dark-Blue/70 dark:text-white font-Poppins leading-7'>
+              <li className='list-disc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+              <li className='list-disc py-4'>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</li>
+              <li className='list-disc'>Duis aute irure dolor in reprehenderit in voluptate velit esse</li>
+              <li className='list-disc py-4'>Excepteur sint occaecat cupidatat non proident, sunt in culpa</li>
+            </ul>
+            <div className='w-238 border-t grid-cols-1 dark:border-white  border-gray-800 border-b lg:flex lg:justify-between lg:pl-0 pl-6 lg:text-center m-auto mt-16 pt-6 pb-6'>
+              <h2 className='font-medium font-Poppins text-[24px] text-Royal-Blue'>Keywords</h2>
+              <p className='font-Poppins font-medium text-[18px]'>Design </p>
+              <p className='font-Poppins font-medium text-[18px]'>UI/UX </p>
+              <p className='font-Poppins font-medium text-[18px]'>Wireframing</p>
+              <p className='font-Poppins font-medium text-[18px]'>Branding</p>
+              <p className='font-Poppins font-medium text-[18px]'>Development</p>
+              <p className='font-Poppins font-medium text-[18px]'>webflow</p>
+            </div>
+
+            <div className='mt-32 grid-cols-3'>
+              <h1 className='lg:text-[48px] font-Poppins font-semibold text-center'>Let's build something great <span className='block'>together</span> </h1>
+              <p className='font-Poppins lg:font-medium m-auto text-center lg:w-156 pt-5'>Nullam vitae purus at tortor mattis dapibus. Morbi purus est, ultricies nec dolor sit amet, scelerisque cursus purus.</p>
+              <div className='flex justify-center items-center mt-14'>
+                <button className='bg-[#FCD980] px-6 py-3 rounded-[50px] cursor-pointer hover:bg-Royal-Blue text-[18px] font-semibold font-Manrope  mb-10'>Contact Us</button>
+              </div>
+
+            </div>
+          </div>
+        </Container>
       </div>
-    </section>
+    </>
 
   )
 }
 
-export default rafin
+export default Rafin
