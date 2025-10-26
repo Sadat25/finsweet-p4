@@ -1,18 +1,18 @@
 import React from "react";
 
-import { useState } from "react";
-import WorkBanner from "../layouts/WorkBanner";
-import OurWork from "./OurWork";
+// import { useState } from "react";
+import OurWork from "../layouts/OurWork";
 import CTA from "./CTA";
 import Container from "../Container";
+import WorkBanner from "../layouts/WorkBanner";
 
 const Work = () => {
-  const [dark, setDark] = useState(false);
+  // const [dark, setDark] = useState(false);
 
   return (
     <>
-      <div className={dark ? "dark" : ""}>
-        <div className="bg-[#F4F6FC] dark:bg-Dark-Blue pt-3">
+      {/* <div className={dark ? "dark" : ""}> */}
+        {/* <div className="bg-[#F4F6FC] dark:bg-Dark-Blue pt-3">
           <Container>
             <div className="flex justify-end">
               <button
@@ -31,11 +31,11 @@ const Work = () => {
               </button>
             </div>
           </Container>
-        </div>
-        <WorkBanner />
+        </div> */}
+        <WorkBanner/>
         <OurWork />
         <CTA />
-      </div>
+      {/* </div> */}
     </>
   );
 };
