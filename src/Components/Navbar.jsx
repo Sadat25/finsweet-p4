@@ -28,7 +28,7 @@ const Navbar = () => {
     </NavLink>
     <NavLink className='block my-2' to="/about">
       {({ isActive }) => (
-        <li className={isActive ? "text-light font-Poppins" : "text-white hover:text-light font-Poppins cursor-pointer"}>About</li>
+        <li className={isActive ? "text-light font-Poppins" : "text-white hover:text-light font-Poppins cursor-pointer"}>About us</li>
       )}
     </NavLink>
     <NavLink className='block my-2' to="/features">

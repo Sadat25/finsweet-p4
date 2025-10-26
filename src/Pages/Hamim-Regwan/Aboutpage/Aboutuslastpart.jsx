@@ -17,16 +17,13 @@ import Footer from '../../../Components/Footer'
 
 
 const Aboutuslastpart = () => {
-  const [click, setClick] = useState(false)
-  const handlechange = () => {
-    setClick(!click)
-  }
+
 
   return (
-    <div className={`${click ? 'dark' : ''} dark:bg-Tint-Blue dark:text-white`}>
+    <div>
       <div className='bg-[#EEF4FA] dark:bg-Tint-Blue w-full  '>
         <div className='container lg:pt-32 pb-32   '>
-          <div className=' lg:flex lg:justify-between grid-cols-2'>
+          <div className=' flex lg:justify-between flex-col-reverse lg:flex-row'>
             <div className='h-[228px] lg:text-left text-center'>
               <h3 className='font-Poppins font-medium pt-13.5  '>Our Mission </h3>
               <h1 className='lg:text-[38px] text-[20px] font-semibold font-Poppins pt-4 '>Inspire, Innovate, Share</h1>
@@ -34,8 +31,8 @@ const Aboutuslastpart = () => {
             </div>
             <img src={bg2} alt="" className='w-[514px] h-[336px] pt-25 lg:pt-0' />
           </div>
-          <div className=' lg:flex lg:justify-between grid-cols-2 lg:mt-24 mt-5  '>
-            <img src={bg1} alt="" className='w-[514px] h-[336px]' />
+          <div className=' lg:flex lg:justify-between grid-cols-2 lg:mt-24 mt-20 lg:mt-5'>
+            <img src={bg1} alt="bg" className='w-[514px] h-[336px]' />
             <div className='h-[228px] lg:text-left text-center'>
               <h3 className='font-Poppins font-medium pt-13.5  '>Our Vision </h3>
               <h1 className='lg:text-[38px] text-[20px] font-semibold font-Poppins pt-4 '>Laser focus</h1>
@@ -45,12 +42,9 @@ const Aboutuslastpart = () => {
         </div>
       </div>
 
-      <div className='container  pt-32 grid-cols-1'>
-        <div className='container flex justify-center'>
-          <button className='px-6 py-3 rounded-[10px] bg-Tint-Blue text-white  dark:text-black dark:bg-[#EEF4FA] cursor-pointer text-[20px]' onClick={handlechange} >click</button>
-        </div>
+      <div className='container py-20 grid-cols-1'>
         <div>
-          <h1 className='text-[48px] font-Poppins font-semibold text-center'>The benefits of working <span className='block'>with us</span> </h1>
+          <h1 className='lg:text-[48px] text-4xl font-Poppins font-semibold text-center'>The benefits of working <span className='block'>with us</span> </h1>
         </div>
 
         <div className='lg:flex lg:justify-between grid-cols-3 mt-12'>
