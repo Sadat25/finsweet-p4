@@ -8,11 +8,11 @@ import FAQ from '../../Components/FAQ'
 const Features = () => {
   return (
     <>
-      <HeroSection/>
-     <LogoSection/>
-     <Benefits/>
-     <BannerPage/>
-     <FAQ/>
+      <HeroSection />
+      <LogoSection />
+      <Benefits />
+      <BannerPage />
+      <FAQ />
     </>
   )
 }

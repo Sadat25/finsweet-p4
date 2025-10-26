@@ -71,7 +71,7 @@ const Aboutuslastpart = () => {
             <p>Finsweet Users</p>
           </div>
 
-          <div className='lg:flex lg:gap-26 items-center lg:pl-0 pl-5  grid-cols-2'>
+          <div className='flex lg:gap-26 items-center lg:pl-0 pl-5  grid-cols-2 gap-5 flex-wrap'>
             <div className='flex gap-3 '>
               <img src={logo1} alt="" className='w-5 h-5 dark:bg-white rounded-full' />
               <p className='font-Poppins font-medium'>logoipsum</p>

@@ -27,7 +27,7 @@ const Inquiry = () => {
                                     <input className='w-full border border-gray-400 px-5 py-2.5 rounded-sm' placeholder='Paste your Figma design URL' />
                                 </form>
                                 <Btn className={'bg-[#FCD980] !text-Tint-Blue w-full'}>Send an Inquiry</Btn>
-                                <div className="flex justify-center">
+                                <div className="flex justify-center pb-8 md:pb-0">
                                     <a className='flex items-center gap-2' href="/">Get in touch with us<FaArrowRightLong /></a>
                                 </div>
                             </div>
