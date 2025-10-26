@@ -5,6 +5,7 @@ import Footer from './Components/Footer'
 import Aboutuslastpart from './Pages/Hamim-Regwan/Aboutpage/Aboutuslastpart'
 import Aboutusfirstpart from './Pages/Hamim-Regwan/Aboutus1stpart/Aboutusfirstpart'
 import AboutusMain from './Pages/Hamim-Regwan/AboutusMain'
+import Readcase from './Pages/Hamim-Regwan/Aboutpage/Readcase'
 
 
 const App = () => {
@@ -13,8 +14,8 @@ const App = () => {
           {/* <Navbar /> */}
           {/* <Btn>Call us</Btn> */}
           <Navbar />
-
-          <AboutusMain/>
+               <Readcase/>
+          {/* <AboutusMain/> */}
           <Footer/>
     </div>
   )
