@@ -27,16 +27,16 @@ const Aboutuslastpart = () => {
             <div className='h-[228px] lg:text-left text-center'>
               <h3 className='font-Poppins font-medium pt-13.5  '>Our Mission </h3>
               <h1 className='lg:text-[38px] text-[20px] font-semibold font-Poppins pt-4 '>Inspire, Innovate, Share</h1>
-              <p className='font-Poppins lg:w-[663px]   leading-7   pt-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p className='font-Poppins lg:max-w-[663px]   leading-7   pt-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
-            <img src={bg2} alt="" className='w-[514px] h-[336px] pt-25 lg:pt-0' />
+            <img src={bg2} alt="" className='max-w-[514px] h-[336px] pt-25 lg:pt-0' />
           </div>
           <div className=' lg:flex lg:justify-between grid-cols-2 lg:mt-24 mt-20 lg:mt-5'>
-            <img src={bg1} alt="bg" className='w-[514px] h-[336px]' />
+            <img src={bg1} alt="bg" className='max-w-[514px] h-[336px]' />
             <div className='h-[228px] lg:text-left text-center'>
               <h3 className='font-Poppins font-medium pt-13.5  '>Our Vision </h3>
               <h1 className='lg:text-[38px] text-[20px] font-semibold font-Poppins pt-4 '>Laser focus</h1>
-              <p className='font-Poppins lg:w-[663px] leading-7 pt-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p className='font-Poppins lg:max-w-[663px] leading-7 pt-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
           </div>
         </div>
