@@ -11,7 +11,7 @@ const Footer = () => {
     return (
         <div>
             <footer className='bg-Tint-Blue pt-24'>
-                <Container className="lg:flex px-20 lg:px-0 pb-10 lg:pb-0">
+                <Container className="lg:flex px-5 lg:px-0 pb-10 lg:pb-0">
                     <div className='lg:w-1/2 mb-10 lg:mb-0'>
                         <img src={logo} alt="" />
                         <p className='font-Poppins font-medium leading-7 text-white/80 lg:w-100 mt-[22px] mb-[86px] '>We are always open to discuss your project and improve your online presence.</p>
@@ -38,7 +38,7 @@ const Footer = () => {
                     </div>
                 </Container>
             </footer>
-            <div className='container py-8 lg:flex items-center justify-between'>
+            <div className='container py-5 lg:flex items-center justify-between'>
                 <p className='text-center '>Copyright 2025, Finsweet.com</p>
                 <ul className='lg:flex items-center gap-8 text-center hidden'>
                     <NavLink to="/">

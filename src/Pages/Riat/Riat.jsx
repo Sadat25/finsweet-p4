@@ -16,7 +16,7 @@ const Riat = () => {
           <h1 className='font-Poppins lg:text-5xl text-3xl font-semibold lg:py-4 pt-4 py-2'>Our Pricing Plans</h1>
           <p className='font-Poppins text-[14px]'>When you’re ready to go beyond prototyping in Figma, Webflow is ready to help you bring your designs to life — without coding them.</p>
         </div>
-        <div className="lg:flex gap-10 lg:py-25 py-10">
+        <div className="lg:flex gap-10 lg:py-25 py-10 px-5 md:px-0">
           <div className="lg:w-1/3 lg:px-10 lg:py-25 px-3 group pt-10 pb-20 lg:my-0 my-10 bg-[#F4F6FC] hover:bg-[#1C1E53] hover:text-[#F4F6FC] rounded-2xl transition delay-50 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 cursor-pointer">
             <div className="">
               <div className="flex gap-2 items-center">
@@ -166,7 +166,7 @@ const Riat = () => {
             </div>
           </div>
         </div>
-        <div className="lg:flex">
+        <div className="lg:flex px-5 md:px-0 mb-10">
           <div className="lg:w-1/3 px-3">
           <h2 className='font-Poppins lg:text-5xl text-4xl py-5 '>Frequently asked questions</h2>
           <p className='font-Poppins text-[14px] text-Royal-Blue'>Contact us For More Info</p>
