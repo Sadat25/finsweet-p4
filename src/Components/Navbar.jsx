@@ -5,16 +5,16 @@ import { NavLink } from 'react-router';
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false)
+  const [isScrolled, setIsScrolled] = useState(false);
   function heandleshow() {
-    setShow(!show)
+    setShow(!show);
   }
   useEffect(() => {
     const handleScrool = () => {
       if (window.scrollY > 70) {
-        setIsScrolled(true)
+        setIsScrolled(true);
       } else {
-        setIsScrolled(false)
+        setIsScrolled(false);
       }
     }
     window.addEventListener('scroll', handleScrool);
@@ -28,7 +28,7 @@ const Navbar = () => {
     </NavLink>
     <NavLink className='block my-2' to="/about">
       {({ isActive }) => (
-        <li className={isActive ? "text-light font-Poppins" : "text-white hover:text-light font-Poppins cursor-pointer"}>About us</li>
+        <li className={isActive ? "text-light font-Poppins" : "text-white hover:text-light font-Poppins cursor-pointer"}>About</li>
       )}
     </NavLink>
     <NavLink className='block my-2' to="/features">
@@ -82,23 +82,19 @@ const Navbar = () => {
             </NavLink>
             <button className='text-2xl cursor-pointer block lg:hidden text-white' onClick={heandleshow} > {show ? <FaXmark /> : <FaBars />}</button>
           </div>
-
+          <ul className='lg:flex hidden gap-3'>
+            {navMenu}
+          </ul>
           <div className={`hidden lg:block`}>
-            <div className='lg:flex items-center gap-12'>
-              <ul className='lg:flex text-center items-center gap-8 pb-5 mt-5 lg:mt-0 lg:pb-0 '>
-                {navMenu}
-              </ul>
-              <button className='px-12 py-4  text-white font-Poppins font-medium cursor-pointer border-2 border-[#F4F6FC]/20 rounded-[40px] block m-auto bg-Tint-Blue duration-300 hover:bg-light hover:text-Dark-Blue'>Contact us</button>
-            </div>
+              <button className='px-6 py-3  text-white font-Poppins font-medium cursor-pointer border-2 border-[#F4F6FC]/20 rounded-[40px] block m-auto bg-Tint-Blue duration-300 hover:bg-light hover:text-Dark-Blue'>Contact us</button>
           </div>
         </div>
-
       </nav>
       {/* mobile menu */}
       <div className={` ${show && 'top-[70px]'} text-white fixed w-full -top-100 duration-1000 ${isScrolled ? 'bg-Tint-Blue/70' : 'bg-Tint-Blue'} backdrop-blur-2xl z-20 border-b border-b-gray-600 lg:hidden`}>
         <ul className='container text-center py-5'>
           {navMenu}
-          <button className='px-12 py-4  text-white font-Poppins  cursor-pointer border-2 border-[#F4F6FC]/20 rounded-[40px] block m-auto bg-Tint-Blue duration-300 hover:bg-light hover:text-Dark-Blue'>Contact us</button>
+          <button className='px-6 py-3  text-white font-Poppins font-medium cursor-pointer border-2 border-[#F4F6FC]/20 rounded-[40px] block m-auto bg-Tint-Blue duration-300 hover:bg-light hover:text-Dark-Blue'>Contact us</button>
         </ul>
       </div>
     </>
