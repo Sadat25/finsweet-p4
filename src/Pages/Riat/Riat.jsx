@@ -1,14 +1,48 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 import Container from '../../Components/Container'
 import { BiSolidRightArrow } from "react-icons/bi";
 import { RxCross1 } from "react-icons/rx";
 import { FiPlus } from "react-icons/fi";
 const Riat = () => {
+  let oneref = useRef()
+  let tworef = useRef()
+  let threeref = useRef()
+  let fourref = useRef()
+  let fiveRef = useRef()
   let [show, setShow] = useState(false)
   let [showtwo, setShowtwo] = useState(false)
   let [showthree, setShowthree] = useState(false)
   let [showfour, setShowfour] = useState(false)
   let [showfive, setShowfive] = useState(false)
+  document.addEventListener("click",(e)=>{
+            if(oneref.current.contains(e.target) == true){
+                setShow(!show)
+            }else{
+                setShow(false)
+            }
+            if(tworef.current.contains(e.target) == true){
+                  setShowtwo(!showtwo)
+            }else{
+                setShowtwo(false)
+            }
+            if(threeref.current.contains(e.target) == true){
+                setShowthree(!showthree)
+            }else{
+                setShowthree(false)
+            }
+            if(fourref.current.contains(e.target) == true){
+                setShowfour(!showfour)
+            }else{
+                setShowfour(false)
+            }
+            if(fiveRef.current.contains(e.target) == true){
+                setShowfive(!showfive)
+            }else{
+                setShowfive(false)
+            }
+            })
+
+
   return (
     <div>
       <Container>
@@ -173,23 +207,23 @@ const Riat = () => {
           </div>
           <div className="lg:w-2/3 lg:pt-0 pt-10 lg:px-8">
           <div className="border-b-2 border-Royal-Blue py-8">
-            <div onClick={(()=>setShow(!show))} className="flex justify-between lg:items-center">
+            <div ref={oneref} className="flex justify-between lg:items-center">
             <p className='font-Poppins text-Royal-Blue w-3/22 font-semibold lg:pt-0 pt-2'>01</p>
             <div className="w-18/22">
               <h5 className='font-Poppins text-2xl w-full'>How much time does it take ?</h5>
             </div>
-            <div className="w-:1/22 lg:pt-0 pt-2">
+            <div className="w-1/22 lg:pt-0 pt-2">
               {show ? <RxCross1/> : <FiPlus/>}
             </div>
           </div>
           {show && (
-            <div className="py-2 lg:pl-29 lg:pr-38">
+            <div className="py-2 pl-10 lg:pl-29 lg:pr-38 transition duration-500 ease-in-out">
             <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
           )}
           </div>
           <div className="border-b-2 border-Royal-Blue py-8">
-            <div onClick={(()=>setShowtwo(!showtwo))} className="flex justify-between lg:items-center">
+            <div ref={tworef} className="flex justify-between lg:items-center">
             <p className='font-Poppins text-Royal-Blue w-3/22 font-semibold lg:pt-0 pt-2'>02</p>
             <div className="w-18/22">
               <h5 className='font-Poppins text-2xl w-full'>What is your class naming convention ?</h5>
@@ -199,13 +233,13 @@ const Riat = () => {
             </div>
           </div>
           {showtwo && (
-            <div className="py-2 lg:pl-29 lg:pr-38">
+            <div className="py-2 pl-10 lg:pl-29 lg:pr-38 transition duration-500 ease-in-out">
             <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
           )}
           </div>
-          <div className="border-b-2 border-Royal-Blue py-8">
-            <div onClick={(()=>setShowthree(!showthree))} className="flex justify-between lg:items-center">
+          <div  className="border-b-2 border-Royal-Blue py-8">
+            <div ref={threeref} className="flex justify-between lg:items-center">
             <p className='font-Poppins text-Royal-Blue w-3/22 font-semibold lg:pt-0 pt-2'>03</p>
             <div className="w-18/22">
               <h5 className='font-Poppins text-2xl w-full'>How do we communicate ?</h5>
@@ -215,13 +249,13 @@ const Riat = () => {
             </div>
           </div>
           {showthree && (
-            <div className="py-2 lg:pl-29 lg:pr-38">
+            <div className="py-2 pl-10 lg:pl-29 lg:pr-38 transition duration-500 ease-in-out">
             <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
           )}
           </div>
           <div className="border-b-2 border-Royal-Blue py-8">
-            <div onClick={(()=>setShowfour(!showfour))} className="flex justify-between lg:items-center">
+            <div ref={fourref} className="flex justify-between lg:items-center">
             <p className='font-Poppins text-Royal-Blue w-3/22 font-semibold lg:pt-0 pt-2'>04</p>
             <div className="w-18/22">
               <h5 className='font-Poppins text-2xl w-full'>I have a bigger project. Can you handle it ?</h5>
@@ -231,13 +265,13 @@ const Riat = () => {
             </div>
           </div>
           {showfour && (
-            <div className="py-2 lg:pl-29 lg:pr-38">
+            <div className="py-2 pl-10 lg:pl-29 lg:pr-38 transition duration-500 ease-in-out">
             <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
           )}
           </div>
           <div className="border-b-2 border-Royal-Blue py-8">
-            <div onClick={(()=>setShowfive(!showfive))} className="flex justify-between lg:items-center">
+            <div ref={fiveRef} className="flex justify-between lg:items-center">
             <p className='font-Poppins text-Royal-Blue w-3/22 font-semibold lg:pt-0 pt-2'>05</p>
             <div className="w-18/22">
               <h5 className='font-Poppins text-2xl w-full'>What is your class naming convention ?</h5>
@@ -247,7 +281,7 @@ const Riat = () => {
             </div>
           </div>
           {showfive && ( 
-            <div className="py-2 lg:pl-29 lg:pr-38">
+            <div className="py-2 pl-10 lg:pl-29 lg:pr-38 transition duration-500 ease-in-out">
             <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
           )}
