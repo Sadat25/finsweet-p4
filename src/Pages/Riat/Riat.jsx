@@ -12,7 +12,7 @@ const Riat = () => {
   return (
     <div>
       <Container>
-        <div className="text-center lg:pt-40 lg:px-100 ">
+        <div className="text-center lg:pt-40 xl:px-100 lg:px-65 ">
           <h1 className='font-Poppins lg:text-5xl text-3xl font-semibold lg:py-4 pt-4 py-2'>Our Pricing Plans</h1>
           <p className='font-Poppins text-[14px]'>When you’re ready to go beyond prototyping in Figma, Webflow is ready to help you bring your designs to life — without coding them.</p>
         </div>
