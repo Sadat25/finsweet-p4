@@ -46,11 +46,11 @@ const Navbar = () => {
         <li className={isActive ? "text-light font-Poppins" : "text-white hover:text-light font-Poppins cursor-pointer"}>Work</li>
       )}
     </NavLink>
-    <NavLink className='block my-2' to="/read">
+    {/* <NavLink className='block my-2' to="/read">
       {({ isActive }) => (
         <li className={isActive ? "text-light font-Poppins" : "text-white hover:text-light font-Poppins cursor-pointer"}>Read</li>
       )}
-    </NavLink>
+    </NavLink> */}
     <NavLink className='block my-2' to="/blog">
       {({ isActive }) => (
         <li className={isActive ? "text-light font-Poppins" : "text-white hover:text-light font-Poppins cursor-pointer"}>Blog</li>

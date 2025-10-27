@@ -40,7 +40,7 @@ const Footer = () => {
             </footer>
             <div className='container py-5 lg:flex items-center justify-between'>
                 <p className='text-center '>Copyright 2025, Finsweet.com</p>
-                <ul className='lg:flex items-center gap-8 text-center hidden'>
+                <ul className='lg:flex items-center gap-5 text-center hidden'>
                     <NavLink to="/">
                         {({ isActive }) => (
                             <li className={isActive ? "text-black font-bold" : "text-[#494971] hover:text-black font-Poppins font-medium leading-[26px] cursor-pointer"}>Home</li>
@@ -66,11 +66,11 @@ const Footer = () => {
                             <li className={isActive ? "text-black font-bold" : "text-[#494971] hover:text-black font-Poppins font-medium leading-[26px] cursor-pointer"}>Work</li>
                         )}
                     </NavLink>
-                    <NavLink to="/read">
+                    {/* <NavLink to="/read">
                         {({ isActive }) => (
                             <li className={isActive ? "text-black font-bold" : "text-[#494971] hover:text-black font-Poppins font-medium leading-[26px] cursor-pointer"}>Read</li>
                         )}
-                    </NavLink>
+                    </NavLink> */}
                     <NavLink to="/blog">
                         {({ isActive }) => (
                             <li className={isActive ? "text-black font-bold" : "text-[#494971] hover:text-black font-Poppins font-medium leading-[26px] cursor-pointer"}>Blog</li>

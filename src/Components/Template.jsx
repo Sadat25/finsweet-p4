@@ -109,7 +109,7 @@ const Template = () => {
             <h2 className='text-[30px]   font-Poppins font-semibold mx-auto px-4 dark:text-white'>Let's build something great together</h2>
             <p className='lg:text-[16px] font-Poppins font-medium text-[#282938] lg:w-[562px] lg:mx-auto md:mx-auto py-2 px-4 dark:text-white '>Nullam vitae purus at tortor mattis dapibus. Morbi purus est, ultricies nec dolor sit amet, scelerisque cursus purus.</p>
             <div className='lg:pt-[40px] lg:pb-[128px] '>
-              <a className='py-2 px-6 bg-[#FCD980] rounded-[20px] dark:text-white text-[#1B1C2B] font-semibold ' href="#">Contuct Us</a>
+              <a className='py-4 px-8 inline-block bg-[#FCD980] rounded-3xl dark:text-white text-[#1B1C2B] font-semibold ' href="#">Contuct Us</a>
             </div>
           </div>
         </div>
