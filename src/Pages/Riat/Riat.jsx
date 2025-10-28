@@ -55,7 +55,7 @@ const Riat = () => {
             <div className="">
               <div className="flex gap-2 items-center">
                 <h2 className='font-Poppins lg:text-3xl text-2xl font-semibold'>$299</h2>
-                <h5 className='font-Poppins lg:text-[14px] text-[12px] text-Royal-Blue dark:text-[#FCD980] group-hover:text-[#FCD980]'>Per Design</h5>
+                <h5 className='font-Poppins lg:text-[14px] text-[12px] text-Royal-Blue transition delay-50 duration-300 ease-in-out  dark:text-[#FCD980] group-hover:text-[#FCD980]'>Per Design</h5>
               </div>
               <div className="">
                 <h3 className='font-Poppins text-xl font-medium pt-5 lg:pb-3 pb-2'>Landing Page </h3>
@@ -96,7 +96,7 @@ const Riat = () => {
           </ul>
               </div>
               <div className="text-center pt-10">
-                <a className='px-10 py-3 rounded-full group-hover:bg-[#FCD980] hover:bg-[#FCD980] text-[#F4F6FC] hover:text-[#282938] bg-[#282938]' href="#">Get started</a>
+                <a className='px-10 py-3 rounded-full group-hover:bg-[#FCD980] hover:bg-[#FCD980] transition delay-50 duration-300 ease-in-out text-[#F4F6FC] hover:text-[#282938] bg-[#282938]' href="#">Get started</a>
               </div>
             </div>
           </div>
@@ -104,7 +104,7 @@ const Riat = () => {
             <div className="">
               <div className="flex gap-2 items-center">
                 <h2 className='font-Poppins lg:text-3xl text-2xl font-semibold'>$299</h2>
-                <h5 className='font-Poppins lg:text-[14px] text-[12px] text-Royal-Blue dark:text-[#FCD980] group-hover:text-[#FCD980]'>Per Design</h5>
+                <h5 className='font-Poppins lg:text-[14px] text-[12px] text-Royal-Blue transition delay-50 duration-300 ease-in-out dark:text-[#FCD980] group-hover:text-[#FCD980]'>Per Design</h5>
               </div>
               <div className="">
                 <h3 className='font-Poppins text-xl font-medium pt-5 lg:pb-3 pb-2'>Landing Page </h3>
@@ -145,7 +145,7 @@ const Riat = () => {
           </ul>
               </div>
               <div className="text-center pt-10">
-                <a className='px-10 py-3 rounded-full hover:bg-[#FCD980] group-hover:bg-[#FCD980] text-[#F4F6FC] hover:text-[#282938] bg-[#282938]' href="#">Get started</a>
+                <a className='px-10 py-3 rounded-full hover:bg-[#FCD980] group-hover:bg-[#FCD980] transition delay-50 duration-300 ease-in-out text-[#F4F6FC] hover:text-[#282938] bg-[#282938]' href="#">Get started</a>
               </div>
             </div>
           </div>
@@ -153,7 +153,7 @@ const Riat = () => {
             <div className="">
               <div className="flex gap-2 items-center">
                 <h2 className='font-Poppins lg:text-3xl text-2xl font-semibold'>$299</h2>
-                <h5 className='font-Poppins lg:text-[14px] text-[12px] text-Royal-Blue dark:text-[#FCD980] group-hover:text-[#FCD980]'>Per Design</h5>
+                <h5 className='font-Poppins lg:text-[14px] text-[12px] text-Royal-Blue dark:text-[#FCD980] group-hover:text-[#FCD980] transition delay-50 duration-300 ease-in-out'>Per Design</h5>
               </div>
               <div className="">
                 <h3 className='font-Popp
@@ -195,7 +195,7 @@ const Riat = () => {
           </ul>
               </div>
               <div className="text-center pt-10">
-                <a className='px-10 py-3 rounded-full group-hover:bg-[#FCD980] hover:bg-[#FCD980] text-[#F4F6FC] hover:text-[#282938] bg-[#282938]' href="#">Get started</a>
+                <a className='px-10 py-3 rounded-full group-hover:bg-[#FCD980] hover:bg-[#FCD980] text-[#F4F6FC] hover:text-[#282938] bg-[#282938] transition delay-50 duration-300 ease-in-out' href="#">Get started</a>
               </div>
             </div>
           </div>
